@@ -1,0 +1,28 @@
+<%- include('partials/newheader') %>
+
+<div class="container mt-5 full">
+  <h1>Login</h1>
+
+  <div class="row color">
+    <div class="col-lg-5 col-sm-8">
+      <div class="card panna">
+        <div class="card-body">
+          <!-- Makes POST request to /login route -->
+          <form action="/login" method="POST">
+            <div class="form-group panna">
+              <label for="email">Email</label>
+              <input type="email" class="form-control pan" name="username" />
+            </div>
+            <div class="form-group panna">
+              <label for="password">Password</label>
+              <input type="password" class="form-control pan" name="password" />
+            </div>
+            <button type="submit" class="btn btn-primary">Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <%- include('partials/newfooter') %>
+  </div>
+</div>

@@ -1,0 +1,34 @@
+.panna {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+label {
+  color: cadetblue;
+}
+h1 {
+  color: cadetblue;
+}
+
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url("./images/backy1.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sec {
+  background-color: transparent !important;
+}
+.secretsh1 {
+  color: aqua;
+  font-size: 3rem !important;
+}
